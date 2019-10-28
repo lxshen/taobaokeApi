@@ -4,7 +4,7 @@ from lx_taobaoke import LxFunction
 
 class ToaBaoKeApi(object):
     def __init__(self, app_tions, commission_tions):
-        self.taobao_api_href = "'http://gw.api.taobao.com'"
+        self.taobao_api_href = "http://gw.api.taobao.com"
         self.app_tions = app_tions
         self.commission_tions = commission_tions
 
